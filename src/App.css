@@ -1,0 +1,75 @@
+/* Navbar */
+
+.navbar {
+  width: 100%;
+  background: rgb(254, 253, 253);
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* .navbar-brand h2 { */
+  /* color: #200cd6; */
+/* } */
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar-links a:hover {
+  color: #1f4e79;
+}
+
+.navbar-links a.active {
+  color: #1f4e79;
+  font-weight: bold;
+}
+
+.navbar-links button {
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar-links button:hover {
+  background: #c9302c;
+}
+
+.dashboard-content {
+  padding: 30px;
+}
+
+.dashboard-welcome {
+  margin-bottom: 25px;
+}
+
+.dashboard-welcome h1 {
+  margin-bottom: 5px;
+}
+
+.dashboard-welcome p {
+  color: #666;
+}
+
+.background-image {
+  width: 100%;
+  height: 300px;
+  background-image: url(./assets/login\ page\ of\ BANKEASE.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
